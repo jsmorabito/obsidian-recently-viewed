@@ -1,0 +1,10 @@
+{
+  "id": "recently-viewed",
+  "name": "Recently Viewed",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Track and display the last 15 recently viewed files, inspired by Linear's recently viewed feature.",
+  "author": "John",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

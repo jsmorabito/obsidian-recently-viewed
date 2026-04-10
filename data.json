@@ -1,0 +1,13 @@
+{
+  "maxItems": 15,
+  "showTimestamp": true,
+  "showPath": true,
+  "recentFiles": [
+    {
+      "path": "Welcome.md",
+      "basename": "Welcome",
+      "extension": "md",
+      "viewedAt": 1775835541357
+    }
+  ]
+}

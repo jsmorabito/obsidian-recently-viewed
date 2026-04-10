@@ -1,0 +1,234 @@
+/* ─── Container ──────────────────────────────────────────────────────────────── */
+
+.rv-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ─── Header ─────────────────────────────────────────────────────────────────── */
+
+.rv-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  flex-shrink: 0;
+}
+
+.rv-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rv-header-icon {
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+}
+
+.rv-header-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.rv-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.rv-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 16px;
+  padding: 0 5px;
+  border-radius: 8px;
+  background-color: var(--background-modifier-border);
+  color: var(--text-muted);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.rv-clear-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-faint);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  box-shadow: none;
+}
+
+.rv-clear-btn:hover {
+  background-color: var(--background-modifier-hover);
+  color: var(--text-muted);
+}
+
+.rv-clear-btn svg {
+  width: 13px;
+  height: 13px;
+}
+
+/* ─── List ───────────────────────────────────────────────────────────────────── */
+
+.rv-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 0 8px;
+}
+
+/* ─── Item ───────────────────────────────────────────────────────────────────── */
+
+.rv-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px 5px 8px;
+  margin: 1px 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  gap: 8px;
+  transition: background-color 0.1s ease;
+  min-height: 36px;
+}
+
+.rv-item:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.rv-item:active {
+  background-color: var(--background-modifier-active-hover);
+}
+
+/* ─── Index number ───────────────────────────────────────────────────────────── */
+
+.rv-index {
+  flex-shrink: 0;
+  width: 14px;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-faint);
+  text-align: center;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── File icon ──────────────────────────────────────────────────────────────── */
+
+.rv-file-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-accent);
+  opacity: 0.85;
+}
+
+.rv-file-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+/* ─── File info ──────────────────────────────────────────────────────────────── */
+
+.rv-info {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.rv-name {
+  font-size: 13px;
+  font-weight: 450;
+  color: var(--text-normal);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+
+.rv-path {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 1px;
+  line-height: 1.2;
+}
+
+/* ─── Timestamp ──────────────────────────────────────────────────────────────── */
+
+.rv-time {
+  flex-shrink: 0;
+  font-size: 10.5px;
+  color: var(--text-faint);
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── Empty state ────────────────────────────────────────────────────────────── */
+
+.rv-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.rv-empty-icon {
+  margin-bottom: 10px;
+  opacity: 0.4;
+}
+
+.rv-empty-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.rv-empty p {
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.rv-empty-sub {
+  font-size: 11.5px !important;
+  color: var(--text-faint) !important;
+  font-weight: 400 !important;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────────── */
+
+.rv-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.rv-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.rv-list::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-bg);
+  border-radius: 2px;
+}
