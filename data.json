@@ -4,10 +4,58 @@
   "showPath": true,
   "recentFiles": [
     {
+      "path": "Templates/Issue Template.md",
+      "basename": "Issue Template",
+      "extension": "md",
+      "viewedAt": 1776711738917
+    },
+    {
+      "path": "p.Objects plugin.md",
+      "basename": "p.Objects plugin",
+      "extension": "md",
+      "viewedAt": 1776711718192
+    },
+    {
+      "path": "Untitled.base",
+      "basename": "Untitled",
+      "extension": "base",
+      "viewedAt": 1776177597587
+    },
+    {
       "path": "Welcome.md",
       "basename": "Welcome",
       "extension": "md",
-      "viewedAt": 1775835541357
+      "viewedAt": 1776172033432
+    },
+    {
+      "path": "Plugins.md",
+      "basename": "Plugins",
+      "extension": "md",
+      "viewedAt": 1776097031144
+    },
+    {
+      "path": "Recently Viewed plugin.md",
+      "basename": "Recently Viewed plugin",
+      "extension": "md",
+      "viewedAt": 1776096609868
+    },
+    {
+      "path": "test.md",
+      "basename": "test",
+      "extension": "md",
+      "viewedAt": 1776096605790
+    },
+    {
+      "path": "Templates/Untitled.md",
+      "basename": "Untitled",
+      "extension": "md",
+      "viewedAt": 1776095547689
+    },
+    {
+      "path": "Objects plugin.md",
+      "basename": "Objects plugin",
+      "extension": "md",
+      "viewedAt": 1776093127293
     }
   ]
 }
