@@ -4,22 +4,40 @@
   "showPath": true,
   "recentFiles": [
     {
+      "path": "Home.dashboard",
+      "basename": "Home",
+      "extension": "dashboard",
+      "viewedAt": 1776717821395
+    },
+    {
+      "path": "Obsidian Dashboards.md",
+      "basename": "Obsidian Dashboards",
+      "extension": "md",
+      "viewedAt": 1776717800102
+    },
+    {
+      "path": "Untitled.base",
+      "basename": "Untitled",
+      "extension": "base",
+      "viewedAt": 1776716779678
+    },
+    {
+      "path": "Untitled dashboard.dashboard",
+      "basename": "Untitled dashboard",
+      "extension": "dashboard",
+      "viewedAt": 1776716269627
+    },
+    {
       "path": "Templates/Issue Template.md",
       "basename": "Issue Template",
       "extension": "md",
-      "viewedAt": 1776711738917
+      "viewedAt": 1776716200632
     },
     {
       "path": "p.Objects plugin.md",
       "basename": "p.Objects plugin",
       "extension": "md",
       "viewedAt": 1776711718192
-    },
-    {
-      "path": "Untitled.base",
-      "basename": "Untitled",
-      "extension": "base",
-      "viewedAt": 1776177597587
     },
     {
       "path": "Welcome.md",
